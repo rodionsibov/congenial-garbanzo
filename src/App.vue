@@ -45,4 +45,14 @@ export default {
 .link-light {
   color: #fff;
 }
+
+.arrow {
+  margin-left: 8px;
+  width: 12px;
+  color: black;
+}
+
+.arrow-light {
+  color: white;
+}
 </style>
