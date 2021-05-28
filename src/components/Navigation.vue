@@ -158,7 +158,7 @@ nav .nav-links ul .link:last-child {
 
 .mobile-nav-enter-active,
 .mobile-nav-leave-active {
-  transition: all 1s ease;
+  transition: all 0.3s ease;
 }
 .mobile-nav-enter-from,
 .mobile-nav-leave-to {
