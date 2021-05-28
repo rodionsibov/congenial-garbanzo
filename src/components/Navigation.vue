@@ -36,7 +36,7 @@
         <router-link class="link" to="#">Home</router-link>
         <router-link class="link" to="#">Blogs</router-link>
         <router-link class="link" to="#">Create Post</router-link>
-        <router-link class="link" to="#">Login/Register</router-link>
+        <router-link class="link" to="#">Login / Register</router-link>
       </ul>
     </transition>
   </header>
@@ -160,7 +160,7 @@ nav .nav-links ul .link:last-child {
 .mobile-nav-leave-active {
   transition: all 1s ease;
 }
-.mobile-nav-enter,
+.mobile-nav-enter-from,
 .mobile-nav-leave-to {
   transform: translateX(-250px);
 }
