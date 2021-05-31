@@ -67,17 +67,18 @@ export default {
 
 <style scoped>
 .blog-card {
-    position: relative;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    border-radius: 8px;
-    background-color: #fff;
-    min-height: 470px;
-    transition: 0.5s ease all;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: #fff;
+  min-height: 470px;
+  transition: 0.5s ease all;
 }
 
 .blog-card:hover {
-    transform: rotateZ(-1deg) scale(1.01);
+  transform: rotateZ(-1deg) scale(1.01);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4p -1px rgba(0, 0, 0, 0.06);
 }
 </style>
