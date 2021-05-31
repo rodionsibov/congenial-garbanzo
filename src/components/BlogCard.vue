@@ -74,6 +74,10 @@ export default {
     border-radius: 8px;
     background-color: #fff;
     min-height: 470px;
-    transition: 5s ease all;
+    transition: 0.5s ease all;
+}
+
+.blog-card:hover {
+    transform: rotateZ(-1deg) scale(1.01);
 }
 </style>
