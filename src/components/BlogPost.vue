@@ -52,7 +52,7 @@
     </div>
     <div class="blog-photo">
       <img v-if="post.welcomeScreen" :src="post.photo" alt="" />
-      <img :src="post.blogCoverPhoto" alt="" />
+      <img v-else :src="post.blogCoverPhoto" alt="" />
     </div>
   </div>
 </template>
