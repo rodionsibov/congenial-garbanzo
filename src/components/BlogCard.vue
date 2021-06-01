@@ -1,6 +1,6 @@
 <template>
   <div class="blog-card">
-    <div class="icons">
+    <div class="icons" v-show="editPost">
       <div class="icon">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -64,6 +64,11 @@
 <script>
 export default {
   props: ["post"],
+  computed: {
+    editPost() {
+      return this.$store.state.editPost;
+    },
+  },
 };
 </script>
 
