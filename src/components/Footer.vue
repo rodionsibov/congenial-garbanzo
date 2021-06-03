@@ -30,7 +30,7 @@
             <router-link class="link" to="#" v-if="user"
               >Create Post</router-link
             >
-            <router-link class="link" to="#" v-if="!user"
+            <router-link class="link" :to="{name: 'Login'}" v-if="!user"
               >Login / Register</router-link
             >
           </ul>

@@ -133,6 +133,12 @@ button:hover,
   background-color: rgba(128, 128, 128, 0.5);
 }
 
+.error {
+  text-align: center;
+  font-size: 12px;
+  color: tomato;
+}
+
 .blog-card-wrap {
   position: relative;
   padding: 80px 16px;
